@@ -5,10 +5,8 @@ As someone who is passionate about security and technology, I&amp;rsquo;ve been 
 <p>There are several ways to check your existing site to make sure you&rsquo;re using proper HTTP Headers and SSL/TLS configuration settings. A few which come to mind are <a href="https://www.ssllabs.com/ssltest/">Qualys SSL Labs - SSL Server Test</a> and <a href="https://securityheaders.io/">securityheaders.io</a>. I&rsquo;m also using a new service called <a href="https://www.hardenize.com">Hardenize</a>, which is a slightly more comprehensive test that checks for modern security settings.</p>
 <h3 id="definitions">Definitions</h3>
 <p>It&rsquo;s important to know what the following components are to better understand what is being worked on and why it&rsquo;s being modified.</p>
-<ol>
-<li><strong>Nginx:</strong> HTTP Web Server, Reverse Proxy, Load Balancer, etc. Nginx can also do other things, but it&rsquo;s mainly used as a conduit for serving content over ports 80 (HTTP) or 443 (HTTPS).</li>
-</ol>
 <ul>
+<li><strong>Nginx:</strong> HTTP Web Server, Reverse Proxy, Load Balancer, etc. Nginx can also do other things, but it&rsquo;s mainly used as a conduit for serving content over ports 80 (HTTP) or 443 (HTTPS).</li>
 <li><strong>SSL/TLS (HTTPS):</strong> Protocol used to encrypt traffic between two endpoints. It&rsquo;s what gives you the little green lock next to the URI in your browser. Additionally, it&rsquo;s signed by a CA to verify domain and server ownership.</li>
 <li><strong>Content Security Policy:</strong> Computer security standard enforced by the server to prevent the browser from rendering malicious (unauthorized or dangerous) content. Prevent cross-site scripting (XSS), clickjacking, code injection, along with other vulnerabilities.</li>
 </ul>
