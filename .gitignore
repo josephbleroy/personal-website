@@ -1,0 +1,39 @@
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Others
+
+/hugo
+docs/public*
+/.idea
+hugo.exe
+*.test
+*.prof
+nohup.out
+cover.out
+*.swp
+*.swo
+.DS_Store
+*~
+vendor/*/
+*.bench
+*.debug
+coverage*.out
+
+dock.sh
+
+GoBuilds
+dist
+
+hugolib/hugo_stats.json
+resources/sunset.jpg
+
+vendor
