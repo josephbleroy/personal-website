@@ -26,7 +26,7 @@ There are several ways to check your existing site to make sure you're using pro
 
 It's important to know what the following components are to better understand what is being worked on and why it's being modified.
 
-1. **Nginx:** HTTP Web Server, Reverse Proxy, Load Balancer, etc. Nginx can also do other things, but it's mainly used as a conduit for serving content over ports 80 (HTTP) or 443 (HTTPS).
+* **Nginx:** HTTP Web Server, Reverse Proxy, Load Balancer, etc. Nginx can also do other things, but it's mainly used as a conduit for serving content over ports 80 (HTTP) or 443 (HTTPS).
 * **SSL/TLS (HTTPS):** Protocol used to encrypt traffic between two endpoints. It's what gives you the little green lock next to the URI in your browser. Additionally, it's signed by a CA to verify domain and server ownership.
 * **Content Security Policy:** Computer security standard enforced by the server to prevent the browser from rendering malicious (unauthorized or dangerous) content. Prevent cross-site scripting (XSS), clickjacking, code injection, along with other vulnerabilities.
 
