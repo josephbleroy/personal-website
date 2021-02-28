@@ -1,11 +1,11 @@
 +++
-title = "Contact"
-date = "2014-04-09"
-aliases = ["contact"]
+title = "About"
+date = "2021-03-01"
+aliases = ["about"]
 [ author ]
   name = "Joseph"
 +++
 
 My name is Joseph and I'm a Security Engineer currently living in Tokyo, Japan. 
 
-I created this site to capture memorys of my life, improve my writing, and offer my opinion on some of the things which I find interestring.
+I created this site to archive my thoughts and a way to improve my writing.
