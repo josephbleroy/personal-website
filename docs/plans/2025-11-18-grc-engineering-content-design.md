@@ -168,6 +168,8 @@ Bi-weekly (one tutorial every two weeks) - sustainable pace for research, implem
 
 ## Site Organization (Hugo)
 
+**Implementation Note (2025-11-18)**: The landing page has been simplified to minimal content with automatic post listing. See `docs/plans/2025-11-18-minimal-grc-landing-page-design.md` and `docs/plans/2025-11-18-minimal-grc-landing-page-implementation.md` for details.
+
 ### Content Structure (Hybrid Approach)
 
 **Posts Location**:
