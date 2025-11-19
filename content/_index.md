@@ -2,7 +2,9 @@
 title: "Home"
 ---
 
-I'm Joe LeRoy—I help engineering teams build security and compliance into their workflow instead of around it.
+I'm Joe LeRoy.
+
+I help engineering teams build security and compliance into their workflow instead of around it.
 
 I've helped build security programs at a Tokyo-based startup (later acquired by a major fintech) and continue supporting their operations remotely from the Philadelphia Metro Area.
 
