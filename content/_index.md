@@ -2,10 +2,10 @@
 title: "Home"
 ---
 
-Greetings. This is Joe LeRoy. I’m a Cybersecurity & GRC Lead, engineer, and strategist.
+I'm Joe LeRoy—I help engineering teams build security and compliance into their workflow instead of around it.
 
-My focus is bridging the gap between hands-on engineering and strategy. I help teams achieve GRC goals by removing friction—improving velocity, trust, and security.
+I'm a Cybersecurity & GRC Lead with a background in security engineering, operations, and leading external and internal audits. I work with engineering managers to translate compliance requirements into practical systems and automate the manual parts of GRC.
 
-Currently, I live in the Philadelphia Metro Area, though I spent time working in Tokyo for a startup (acquired by a major fintech) and continue to support operations there.
+I built security programs from the ground up at a Tokyo-based startup (later acquired by a major fintech) and continue supporting their operations remotely from the Philadelphia Metro Area.
 
-Previously: I've built comprehensive security programs in fast-paced environments. I specialize in translating technical realities into clear business strategies, ensuring compliance enables innovation rather than hinders it.
+My focus now is bridging security engineering with GRC automation so compliance actually makes you secure, not just compliant.
