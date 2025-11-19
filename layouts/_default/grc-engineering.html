@@ -8,38 +8,39 @@
             {{ end }}
 
             {{ $grcPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "GRC Engineering") }}
-            {{ $grcPosts = $grcPosts.ByDate.Reverse }}
 
             {{ if $grcPosts }}
-                <div class="posts-group">
-                    <ul class="posts-list">
-                        {{ range $grcPosts }}
-                            <li class="post-item">
-                                <a href="{{.Permalink}}" class="post-item-inner">
-                                    <span class="post-title">{{.Title}}</span>
-                                    <span class="post-meta">
+                {{ range $grcPosts.GroupByDate "2006" }}
+                    <div class="posts-group">
+                        <div class="post-year">{{ .Key }}</div>
+
+                        <ul class="posts-list">
+                            {{ range .Pages }}
+                                <li class="post-item">
+                                    <a href="{{.Permalink}}">
+                                        <span class="post-title">{{.Title}}</span>
                                         <span class="post-day">
                                             {{ if .Site.Params.dateformShort }}
                                                 {{ time.Format .Site.Params.dateformShort .Date }}
                                             {{ else }}
                                                 {{ time.Format "Jan 2" .Date }}
                                             {{ end }}
-                                        </span>
-                                        {{ with .Params.series }}
-                                            {{ if reflect.IsSlice . }}
-                                                {{ range . }}
+                                            {{ with .Params.series }}
+                                                {{ if reflect.IsSlice . }}
+                                                    {{ range . }}
+                                                        <span class="post-series"> • {{ . }}</span>
+                                                    {{ end }}
+                                                {{ else }}
                                                     <span class="post-series"> • {{ . }}</span>
                                                 {{ end }}
-                                            {{ else }}
-                                                <span class="post-series"> • {{ . }}</span>
                                             {{ end }}
-                                        {{ end }}
-                                    </span>
-                                </a>
-                            </li>
-                        {{ end }}
-                    </ul>
-                </div>
+                                        </span>
+                                    </a>
+                                </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                {{ end }}
             {{ else }}
                 <p><em>No posts yet. Check back soon!</em></p>
             {{ end }}
