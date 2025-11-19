@@ -96,7 +96,7 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
-  footerRight = "Theme by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+  footerRight = "Void-Raiders Theme by <a href=\"https://github.com/josephbleroy\">Joseph LeRoy</a> (based on Hello Friend NG)"
 
   # Colors for favicons
   #
@@ -153,12 +153,12 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Void-Raiders Theme"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Void-Raiders Theme"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
