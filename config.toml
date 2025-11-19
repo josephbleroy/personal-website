@@ -6,7 +6,9 @@ theme = "hello-friend-ng"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-paginate  = 10
+[pagination]
+  pagerSize = 10
+
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
@@ -134,10 +136,6 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/josephbleroy"
-
-  [[params.social]]
     name = "email"
     url  = "mailto:joseph@josephbleroy.com"
 
@@ -169,3 +167,8 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+
+  [[menu.main]]
+    identifier = "grc-engineering"
+    name       = "GRC Engineering"
+    url        = "grc-engineering/"
