@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Security, Technology, and Life."
+  homeSubtitle = "Cybersecurity & GRC Engineering"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
