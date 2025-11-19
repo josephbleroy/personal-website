@@ -140,6 +140,10 @@ disableHugoGeneratorInject = false
     url  = "https://bsky.app/profile/josephbleroy.bsky.social"
 
   [[params.social]]
+    name = "x"
+    url  = "https://x.com/josephbleroy"
+
+  [[params.social]]
     name = "github"
     url  = "https://github.com/josephbleroy"
 
