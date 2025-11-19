@@ -1,7 +1,7 @@
 baseURL = "https://josephbleroy.com/"
 title   = "Joseph B. LeRoy"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "void-raiders"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -136,8 +136,8 @@ disableHugoGeneratorInject = false
 
   # Social icons
   [[params.social]]
-    name = "email"
-    url  = "mailto:joseph@josephbleroy.com"
+    name = "bluesky"
+    url  = "https://bsky.app/profile/josephbleroy.bsky.social"
 
   [[params.social]]
     name = "github"
